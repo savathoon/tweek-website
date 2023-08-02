@@ -18,14 +18,14 @@ const ParticleBackground = () => {
                     <orthographicCamera attach="shadow-camera" args={[-10, 10, 10, -10]} />
                 </directionalLight>
                 <Campfire />
-                <OrbitControls 
-                    enableDamping={false} 
-                    enableZoom={false} 
-                    enablePan={false}  
-                    minAzimuthAngle={-Math.PI/2 }
-                    maxAzimuthAngle={Math.PI/2}
-                    minPolarAngle={Math.PI/2}
-                    maxPolarAngle={Math.PI/2}
+                <OrbitControls
+                    enableDamping={false}
+                    enableZoom={false}
+                    enablePan={false}
+                    minAzimuthAngle={-Math.PI / 2}
+                    maxAzimuthAngle={Math.PI / 2}
+                    minPolarAngle={Math.PI / 2}
+                    maxPolarAngle={Math.PI / 2}
                 />
             </Canvas>
         </div>

@@ -14,7 +14,7 @@ const Campfire = () => {
     });
     console.log(obj);
     return (
-        <primitive object={obj} scale={1} position={[0,-2, 0]} rotation={[0,0,0]}/>
+        <primitive object={obj} scale={1} position={[0, -2, 0]} rotation={[0, 0, 0]} />
     )
 }
 

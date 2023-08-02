@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import { Inter, Montserrat } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
-const monserrat = Montserrat({subsets: ['latin']})
+const monserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'tweek',

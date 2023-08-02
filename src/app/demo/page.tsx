@@ -1,4 +1,4 @@
-const DemoContent:React.FC = () => {
+const DemoContent: React.FC = () => {
     return <h1>Hello Demo</h1>
 }
 
